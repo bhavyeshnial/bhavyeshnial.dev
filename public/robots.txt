@@ -1,6 +1,4 @@
-User-Agent: *
-
+User-agent: *
 Allow: /
 
-sitemap: 
-https://bhavyeshnial.dev
+Sitemap: https://bhavyeshnial.dev/sitemap.xml
