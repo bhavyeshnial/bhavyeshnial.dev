@@ -38,7 +38,6 @@
 
   <!-- Theme / PWA -->
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
-
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f172a">
   <meta name="apple-mobile-web-app-title" content="Bhavyesh Nial" />
 
@@ -48,89 +47,164 @@
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
-  <!-- Structured Data: WebSite -->
-  <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"WebSite",
-  "@id":"https://bhavyeshnial.dev/#website",
-  "url":"https://bhavyeshnial.dev/",
-  "name":"Bhavyesh Nial",
-  "alternateName":"Bhavyesh Nial",
-  "inLanguage":"en-IN",
-  "image":"https://bhavyeshnial.dev/og-image.png"
-}
-</script>
-  <!-- Structured Data: helps Google show a rich "Person" result -->
-  <script type="application/ld+json">
-   {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "https://bhavyeshnial.dev/#person",
-  "name": "Bhavyesh Nial",
-  "jobTitle": "Full Stack Developer",
-  "url": "https://bhavyeshnial.dev/",
-  "image": "https://bhavyeshnial.dev/assets/images/bhavyesh-nial.webp",
-  "email": "mailto:hire@bhavyeshnial.dev",
-  "nationality": "Indian",
-  "mainEntityOfPage": "https://bhavyeshnial.dev/",
-"hasOccupation": {
-  "@type": "Occupation",
-  "name": "Full Stack Developer"
-},
-"sameAs": [
-    "https://www.linkedin.com/in/bhavyeshnial",
-    "https://github.com/bhavyeshnial",
-    "https://twitter.com/bhavyeshnial"
-  ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Bhawanipatna",
-        "addressRegion": "Odisha",
-        "addressCountry": "IN"
-      },
-     "knowsAbout": [
-  "Full Stack Development",
-  "Web Application Development",
-  "Responsive Website Design",
-  "Custom Website Design for Startups and Businesses",
-  "MERN Stack",
-  "React",
-  "Node.js",
-  "Express.js",
-  "MongoDB",
-  "PHP",
-  "JavaScript",
-  "HTML",
-  "CSS",
-  "SEO",
-  "E-commerce Website Development",
-  "Full Stack Developer in Kalahandi",
-  "Web Developer & Designer in Majursahi",
-  "Web Developer & Designer in Bhawanipatna",
-  "Web Developer & Designer in Junagarh",
-  "Web Developer & Designer in Dharmagarh",
-  "Web Developer & Designer in Lanjigarh",
-  "Web Developer & Designer in Narla",
-  "Web Developer & Designer in Koksara",
-  "Web Developer & Designer in Kesinga",
-  "Website Design Company Odisha"
 
-      ],
-      "areaServed": [
-        { "@type": "City", "name": "Majursahi" },
-        { "@type": "City", "name": "Bhawanipatna" },
-        { "@type": "City", "name": "Junagarh" },
-        { "@type": "City", "name": "Dharmagarh" },
-        { "@type": "City", "name": "Lanjigarh" },
-        { "@type": "City", "name": "Narla" },
-        { "@type": "City", "name": "Koksara" },
-        { "@type": "City", "name": "Kesinga" },
-        { "@type": "State", "name": "Odisha" },
-        { "@type": "Country", "name": "India" }
-      ]
+  <!-- Structured Data: WebSite  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://bhavyeshnial.dev/#website",
+    "url": "https://bhavyeshnial.dev/",
+    "name": "Bhavyesh Nial",
+    "alternateName": "Bhavyesh Nial",
+    "description": "Portfolio of Bhavyesh Nial - Full Stack Developer.",
+    "inLanguage": "en-IN",
+    "image": "https://bhavyeshnial.dev/og-image.png",
+    "publisher": {
+      "@id": "https://bhavyeshnial.dev/#organization"
     }
-    </script>
+  }
+  </script>
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://bhavyeshnial.dev/#organization",
+    "name": "Bhavyesh Nial",
+    "url": "https://bhavyeshnial.dev/",
+    "logo": "https://bhavyeshnial.dev/logo.png",
+    "image": "https://bhavyeshnial.dev/og-image.png",
+    "sameAs": [
+      "https://github.com/bhavyeshnial",
+      "https://www.linkedin.com/in/bhavyeshnial",
+      "https://twitter.com/bhavyeshnial",
+      "https://www.instagram.com/bhavyeshnial"
+    ]
+  }
+  </script>
+
+  <!--  Structured Data: Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://bhavyeshnial.dev/#person",
+    "name": "Bhavyesh Nial",
+    "jobTitle": "Full Stack Developer",
+    "url": "https://bhavyeshnial.dev/",
+    "image": "https://bhavyeshnial.dev/assets/images/bhavyesh-nial.webp",
+    "email": "mailto:hire@bhavyeshnial.dev",
+    "nationality": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "mainEntityOfPage": {
+      "@id": "https://bhavyeshnial.dev/#website"
+    },
+    "worksFor": {
+      "@id": "https://bhavyeshnial.dev/#organization"
+    },
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Full Stack Developer"
+    },
+    "sameAs": [
+      "https://github.com/bhavyeshnial",
+      "https://www.linkedin.com/in/bhavyeshnial",
+      "https://twitter.com/bhavyeshnial",
+      "https://www.instagram.com/bhavyeshnial"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bhawanipatna",
+      "addressRegion": "Odisha",
+      "addressCountry": "IN"
+    },
+    "knowsAbout": [
+      "Full Stack Development",
+      "MERN Stack",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PHP",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Responsive Web Design",
+      "SEO",
+      "E-commerce Website Development",
+      "Website Development"
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: ProfessionalService -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://bhavyeshnial.dev/#service",
+    "name": "Bhavyesh Nial",
+    "url": "https://bhavyeshnial.dev/",
+    "image": "https://bhavyeshnial.dev/og-image.png",
+    "logo": "https://bhavyeshnial.dev/logo.png",
+    "description": "Full Stack Developer providing custom website and web application development services.",
+    "telephone": "+9191XX 222 929",
+    "provider": {
+      "@id": "https://bhavyeshnial.dev/#person"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+9191XX 222 929",
+      "contactType": "customer service",
+      "email": "mailto:hire@bhavyeshnial.dev",
+      "availableLanguage": [
+        "English",
+        "Hindi"
+      ]
+    },
+    "serviceType": [
+      "Website Development",
+      "Web Application Development",
+      "Full Stack Development",
+      "MERN Stack Development",
+      "React Development",
+      "PHP Development"
+    ],
+    "areaServed": [
+      { "@type": "City", "name": "Majursahi" },
+      { "@type": "City", "name": "Bhawanipatna" },
+      { "@type": "City", "name": "Junagarh" },
+      { "@type": "City", "name": "Dharmagarh" },
+      { "@type": "City", "name": "Lanjigarh" },
+      { "@type": "City", "name": "Narla" },
+      { "@type": "City", "name": "Koksara" },
+      { "@type": "City", "name": "Kesinga" },
+      { "@type": "State", "name": "Odisha" },
+      { "@type": "Country", "name": "India" }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: Breadcrumb -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://bhavyeshnial.dev/"
+      }
+    ]
+  }
+  </script>
+
   <!-- Microsoft Clarity -->
   <script type="text/javascript">
     (function (c, l, a, r, i, t, y) {
@@ -140,32 +214,36 @@
     })(window, document, "clarity", "script", "xy5cp0h274");
   </script>
   <!-- Microsoft Clarity -->
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T4NXWZRSP5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-T4NXWZRSP5');
-</script>
 
   <!-- Google tag (gtag.js) -->
-   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KLL9DG3V');</script>
-<!-- End Google Tag Manager -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T4NXWZRSP5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-T4NXWZRSP5');
+  </script>
+  <!-- Google tag (gtag.js) -->
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KLL9DG3V');</script>
+  <!-- End Google Tag Manager -->
 
 </head>
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLL9DG3V"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLL9DG3V" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
