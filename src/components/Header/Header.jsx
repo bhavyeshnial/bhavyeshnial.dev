@@ -78,7 +78,7 @@ function Header() {
 
           <div className="header-actions">
             <Link 
-              to="/contact" 
+              to="/start-project"
               className={`header-primary-btn ${isMenuOpen ? "hide" : ""}`}
             >
               Start a Project
