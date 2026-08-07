@@ -34,7 +34,7 @@ function Header() {
               </li>
 
               <li>
-                <NavLink to="/portfolio" onClick={closeMenu}>
+                <NavLink to="/projects" onClick={closeMenu}>
                   <i className="fa-solid fa-briefcase"></i>
                   <span>Projects</span>
                 </NavLink>
