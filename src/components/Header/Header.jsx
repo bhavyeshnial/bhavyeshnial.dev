@@ -20,7 +20,7 @@ function Header() {
           
           <div className="logo">
             <Link to="/" onClick={closeMenu}>
-              <img src="logo.png" alt="Bhavyesh Nial Logo" />
+              <img src="logo.svg" alt="Bhavyesh Nial Logo" />
             </Link>
           </div>
 

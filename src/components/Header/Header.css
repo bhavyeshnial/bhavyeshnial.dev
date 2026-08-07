@@ -35,7 +35,7 @@ header,
   justify-content: space-between;
   align-items: center;
   height: var(--header-height);
-  padding: 0 10px;
+  /* padding: 0 px; */
   background: var(--bg-color);
   position: relative;
 }
@@ -48,7 +48,7 @@ header,
 
 .logo img {
   display: block;
-  height: 22px;
+  height: 32px;
   width: auto;
 }
 
@@ -178,7 +178,11 @@ header,
   .header-wrapper {
     padding: 0 20px;
   }
-
+.logo img {
+  display: block;
+  height: 45px;
+  width: auto;
+}
   .mobile-menu {
     position: fixed;
     top: calc(var(--header-height) + 5px);
@@ -243,7 +247,11 @@ header,
   .header-wrapper {
     padding: 0 32px;
   }
-
+.logo img {
+  display: block;
+  height: 50px;
+  width: auto;
+}
   .menu-toggle,
   .mobile-menu-footer,
   .menu-grid li i {
