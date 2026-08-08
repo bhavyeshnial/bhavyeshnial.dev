@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Header from "./components/Header/Header";
 
 // Page Imports
@@ -28,6 +29,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Analytics/>
+      <SpeedInsights/>
     </>
   );
 }
