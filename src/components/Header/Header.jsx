@@ -32,7 +32,7 @@ function Header() {
                   <span>Home</span>
                 </NavLink>
               </li>
-
+ 
               <li>
                 <NavLink to="/projects" onClick={closeMenu}>
                   <i className="fa-solid fa-briefcase"></i>
