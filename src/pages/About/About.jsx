@@ -1,9 +1,18 @@
+import AboutSEO from './AboutSEO';
+
 function About() {
   return (
-    <div style={{ padding: "50px", textAlign: "center" }}>
-      <h1>About Page</h1>
-    </div>
+    <>
+      {/* SEO Tags imported here */}
+      <AboutSEO />
+
+      {/* Main Page Content */}
+      <main>
+        <h1>About Me</h1>
+        {/* Aap yahan apna khud ka content aur design likh sakte hain */}
+      </main>
+    </>
   );
 }
- 
+
 export default About;
