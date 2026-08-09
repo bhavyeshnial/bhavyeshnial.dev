@@ -3,13 +3,13 @@ import AboutSEO from './AboutSEO';
 function About() {
   return (
     <>
-      {/* SEO Tags imported here */}
+
       <AboutSEO />
 
-      {/* Main Page Content */}
-      <main>
+
+      <main style={{ padding: "50px", textAlign: "center" }}>
         <h1>About Me</h1>
-        {/* Aap yahan apna khud ka content aur design likh sakte hain */}
+
       </main>
     </>
   );
