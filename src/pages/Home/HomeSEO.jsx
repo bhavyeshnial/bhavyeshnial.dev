@@ -27,7 +27,7 @@ const structuredData = {
   "@id": `${SITE_URL}/#website`,
   url: `${SITE_URL}/`,
   name: SITE_NAME,
-  alternateName: "Bhavyesh",
+  alternateName: ["Bhavyesh", "Bhavyesh Nial"],
   description: DESCRIPTION,
   inLanguage: "en-IN",
   publisher: {
