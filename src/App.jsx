@@ -1,8 +1,9 @@
-import { Routes, Route } from "react-router-dom";
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from "@vercel/speed-insights/react"
+
+import { Routes, Route, Navigate } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Header from "./components/Header/Header";
- 
+
 // Page Imports
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
@@ -17,10 +18,14 @@ function App() {
   return (
     <>
       <Header />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/portfolio" element={<Projects />} />
+        <Route
+          path="/portfolio"
+          element={<Navigate to="/projects" replace />}
+        />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
@@ -28,8 +33,9 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Analytics/>
-      <SpeedInsights/>
+
+      <Analytics />
+      <SpeedInsights />
     </>
   );
 }
